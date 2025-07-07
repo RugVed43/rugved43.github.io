@@ -1,0 +1,55 @@
+Rugved Gurav
+📌 Mumbai, India  📧guravrugved@gmail.com  ☎️ +91 9172129444  ℹ️ in/rugvedgurav  🌐 rugved-g.in
+SUMMARY
+Results-oriented Senior Frontend Developer with over 5 years of experience in building responsive, scalable, and user-centric web applications. Proven ability to lead client engagements, mentor junior developers, and manage full project lifecycles from planning to deployment. Skilled in ReactJS, NextJS, React Native, NodeJS, and modern frontend technologies with strong hands-on experience in WordPress and website builders. Adept at translating business needs into robust technical solutions while maintaining code quality and performance. Passionate about learning new tools, fostering collaboration, and delivering impactful digital experiences.
+SKILLS
+Languages: TypeScript, JavaScript, HTML, CSS, Python
+Frameworks: Node.js, Express.js, Next.js, React.js, Vue.Js, Tailwind CSS, Bootstrap
+Databases: MySQL, MongoDB
+Testing Frameworks: Mocha, Jest, Playwright, Selenium
+Infrastructures: Amazon Web Services (AWS), Azure, Render, Vercel
+Other Technologies: Docker, Kubernetes, Auth0, GIT
+EXPERIENCE
+Freelance Software Developer                                                                                           January 2025 - Present, Mumbai, IN
+Developed a scalable React Native mobile app for a crypto marketplace client, supporting 50+ cryptocurrencies with detailed asset overviews and multi-year performance analytics using interactive charts and historical data APIs.
+Built a Next.js-based web platform for a stock market client, delivering SEO-optimized dashboards and reducing page load times by 40%.
+Collaborated with 4+ freelance developers, using Git, and Slack to ensure on-time delivery and zero merge conflicts.
+Integrated real-time APIs (REST) for both crypto and stock platforms, ensuring data latency stayed under 200ms for key user actions.
+Implemented secure authentication flows ( JWT), improving app security and reducing unauthorized access incidents by >90%.
+Conducted weekly code reviews and enforced clean architecture, decreasing bug reports by 30% pre-deployment.
+Wrote reusable components and maintained scalable architecture, cutting feature rollout time by 25% across projects.
+
+Senior Software Developer
+JMD Tech Solutions                                                                                                                        July 2024 - January 2025, Doha, Qatar (Onsite)
+Trained and mentored 5+ trainees, facilitating their onboarding through structured knowledge transfer sessions and continuous performance tracking.
+Managed client projects end-to-end, from requirement gathering through deployment, achieving 100% on-time delivery and maintaining client satisfaction scores above 95%.
+Led the design and development of a worker recruitment and management platform, reducing manual coordination by 60% and improving onboarding speed by 40%.
+Executed daily production deployments with near-zero rollback incidents (<1%), ensuring seamless delivery of features and bug fixes.
+Delivered consistently high-quality code with a less than 2% post-release defect rate, exceeding client quality benchmarks and reducing technical debt.
+
+Senior Software Developer
+Cyber Infrastructure Private Limited                                                                                                                    May 2023 - June 2024, Indore, IN
+Mentored and trained 3+ junior developers in NextJs and React.js, boosting team productivity and reducing code review time by 30%.
+Managed client relationships through the full SDLC, from planning to deployment, contributing to 100% on-time project deliveries across 2+ major engagements.
+Led knowledge transfer sessions for new hires, accelerating onboarding by 40% and ensuring team readiness for active project work.
+Contributed to a test management application used by 10+ QA engineers, improving test case visibility and defect tracking efficiency.
+Performed daily production deployments with a <1% failure rate, ensuring continuous delivery and rapid feature rollout.
+Delivered code with <2% post-deployment defects, aligning with or exceeding client quality benchmarks.
+
+Senior Software Developer
+WebFry Services Private Limited                                                                                                             February 2022 - May 2023, Thane, IN
+Built 3+ mobile-responsive websites using NextJs, and ReactJs, achieving cross-device compatibility and load times under 2s for most pages.
+Developed a custom wedding planning application with Next.js, enhancing user engagement and delivering a 25% faster load time compared to the client’s earlier solution.
+Created a dynamic, feature-rich website for an overseas financial firm, improving user retention by 30% through intuitive UI and performance optimization.
+Engineered an online auction web platform, enabling real-time bidding and supporting 100+ concurrent users with secure transaction handling.
+Delivered 2+ websites using WordPress, customizing themes and plugins to meet diverse client needs while reducing development time by 35%.
+
+Junior Software Developer
+Exits Consultancy                                                                                                                               December 2019 - January 2022, Thane, IN
+Built a trip planning web application using ReactJS and NodeJS, reducing manual itinerary coordination efforts by 50%, increasing session duration by 40%, and improving overall user engagement by 30% through real-time updates and an intuitive interface.
+Developed 3+ client websites using WordPress, WIX, and Squarespace, decreasing average development time by 30% and lowering maintenance costs by 20%, by effectively utilizing pre-built templates, reusable components, and CMS capabilities.
+Collaborated with cross-functional teams on 10+ projects, improving project turnaround time by 20% and increasing client satisfaction scores to over 90%, by ensuring clear requirement gathering and proactive communication.
+Maintained and optimized 6+ legacy websites, achieving an average 35% reduction in load times and improving Lighthouse performance scores to above 90 across all categories.
+ 
+
+
