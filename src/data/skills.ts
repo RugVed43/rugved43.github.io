@@ -1,6 +1,6 @@
 import { ReactRouterDomIcon } from "@/components/icons";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
-import { SiNextdotjs } from "react-icons/si";
+import { SiAuth0, SiNextdotjs, SiVercel } from "react-icons/si";
 
 // Languages
 import CsssSvg from "@/public/icons/css.svg";
@@ -21,9 +21,19 @@ import MongodbSvg from "@/public/icons/mongodb.svg";
 
 // Tools and Tech
 import AwsSvg from "@/public/icons/aws.svg";
+import AzureSvg from "@/public/icons/Azure.svg";
+import BootstrapSvg from "@/public/icons/Bootstrap.svg";
 import DockerSvg from "@/public/icons/docker.svg";
+import ExpressSvg from "@/public/icons/Express.svg";
 import GitSvg from "@/public/icons/git.svg";
+import JestSvg from "@/public/icons/Jest.svg";
+import KubernetesSvg from "@/public/icons/Kubernetes.svg";
+import MochaSvg from "@/public/icons/Mocha.svg";
+import MySQLSvg from "@/public/icons/MySQL.svg";
+import PlaywrightSvg from "@/public/icons/Playwrite.svg";
 import PostmanSvg from "@/public/icons/postman.svg";
+import SeleniumSvg from "@/public/icons/Selenium.svg";
+import VuejsSvg from "@/public/icons/Vue.js.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
@@ -41,34 +51,36 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     skills: [
       { name: "React.js", icon: ReactjsSvg },
       { name: "Next.js", icon: SiNextdotjs },
-      { name: "Express.js" },
-      { name: "Vue.js" },
+      { name: "Express.js", icon: ExpressSvg },
+      { name: "Vue.js", icon: VuejsSvg },
       { name: "Tailwind CSS", icon: TailwindcssSvg },
-      { name: "Bootstrap" },
+      { name: "Bootstrap", icon: BootstrapSvg },
       { name: "Redux", icon: ReduxSvg },
       { name: "React Router Dom", icon: ReactRouterDomIcon },
     ],
   },
   {
     sectionName: "Databases",
-    skills: [{ name: "MySQL" }, { name: "MongoDB", icon: MongodbSvg }],
+    skills: [
+      { name: "MySQL", icon: MySQLSvg },
+      { name: "MongoDB", icon: MongodbSvg },
+    ],
   },
   {
     sectionName: "Testing Frameworks",
     skills: [
-      { name: "Mocha" },
-      { name: "Jest" },
-      { name: "Playwright" },
-      { name: "Selenium" },
+      { name: "Mocha", icon: MochaSvg },
+      { name: "Jest", icon: JestSvg },
+      { name: "Playwright", icon: PlaywrightSvg },
+      { name: "Selenium", icon: SeleniumSvg },
     ],
   },
   {
     sectionName: "Infrastructure & Cloud",
     skills: [
       { name: "AWS", icon: AwsSvg },
-      { name: "Azure" },
-      { name: "Render" },
-      { name: "Vercel" },
+      { name: "Azure", icon: AzureSvg },
+      { name: "Vercel", icon: SiVercel },
     ],
   },
   {
@@ -76,8 +88,8 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     skills: [
       { name: "Git", icon: GitSvg },
       { name: "Docker", icon: DockerSvg },
-      { name: "Kubernetes" },
-      { name: "Auth0" },
+      { name: "Kubernetes", icon: KubernetesSvg },
+      { name: "Auth0", icon: SiAuth0 },
       { name: "Postman", icon: PostmanSvg },
     ],
   },
