@@ -8,29 +8,37 @@ export default function AnimatedLogo() {
     },
     visible: {
       pathLength: 1,
-      // Set fill as per your theme
-      fill: "#6A5ACD",
+      fill: "#6A5ACD", // Customize fill if needed
     },
   };
 
   return (
     <AnimatePresence>
       <motion.svg
-        viewBox="0 0 450 450"
+        viewBox="0 0 1024 1024"
         xmlns="http://www.w3.org/2000/svg"
+        width="100%"
+        height="100%"
+        preserveAspectRatio="xMidYMid meet"
         className="h-full w-full fill-accent stroke-accent"
       >
-        <motion.path
-          d="M321.955 420L179.465 127.143L224.998 36.1755L416.91 420H321.955ZM204.867 263.253L128.055 420H33.0897L158.769 168.608L204.867 263.253Z"
-          strokeWidth="15"
-          variants={iconVariant}
-          initial="hidden"
-          animate="visible"
-          transition={{
-            default: { duration: 3, ease: "easeInOut" },
-            fill: { duration: 3, ease: [1, 0, 0.8, 1] },
-          }}
-        />
+        <motion.g
+          transform="translate(0.000000,1024.000000) scale(0.100000,-0.100000)"
+          fill="#000000"
+          stroke="none"
+        >
+          <motion.path
+            d="M826 9561 c-6 -9 -7 -1125 -6 -6443 l0 -2308 958 0 c732 0 961 3 970 12 9 9 12 803 12 3512 0 1926 4 3506 8 3513 6 9 322 13 1312 16 1588 6 1770 -1 2072 -78 259 -67 432 -159 588 -315 183 -183 271 -368 339 -708 14 -69 14 -415 0 -484 -6 -29 -15 -78 -21 -108 -29 -157 -106 -337 -198 -468 -199 -283 -529 -468 -945 -530 -38 -6 -103 -15 -143 -21 -47 -7 -369 -11 -912 -11 -702 0 -841 -2 -846 -14 -3 -7 8 -33 24 -57 33 -51 185 -290 222 -349 14 -22 76 -120 138 -218 62 -97 171 -267 241 -377 70 -110 228 -357 351 -550 123 -192 240 -376 259 -407 20 -32 110 -174 200 -315 91 -142 199 -312 241 -378 129 -202 276 -433 530 -830 134 -209 259 -406 279 -437 113 -181 227 -356 244 -375 l20 -23 1130 0 c1101 0 1129 0 1124 19 -2 10 -42 77 -87 147 -123 191 -272 423 -363 564 -44 69 -115 178 -156 243 -115 178 -200 310 -281 437 -41 63 -106 165 -145 225 -39 61 -129 200 -200 310 -191 298 -204 318 -302 470 -90 139 -192 298 -305 471 -36 56 -56 97 -53 107 4 9 58 33 133 58 249 85 559 261 767 434 505 422 855 1057 965 1750 6 39 15 95 20 125 31 185 16 779 -24 935 -2 11 -10 49 -17 85 -55 295 -182 630 -339 890 -155 258 -414 553 -650 740 -358 284 -823 510 -1275 619 -276 67 -406 87 -720 113 -160 13 -5152 22 -5159 9z"
+            strokeWidth="100"
+            variants={iconVariant}
+            initial="hidden"
+            animate="visible"
+            transition={{
+              default: { duration: 3, ease: "easeInOut" },
+              fill: { duration: 3, ease: [1, 0, 0.8, 1] },
+            }}
+          />
+        </motion.g>
       </motion.svg>
     </AnimatePresence>
   );

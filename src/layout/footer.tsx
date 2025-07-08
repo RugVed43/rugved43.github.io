@@ -1,7 +1,6 @@
 import FadeUp from "@/animation/fade-up";
 import {
   GithubIcon,
-  InstagramIcon,
   LinkedinIcon,
   MailIcon,
   PhoneIcon,
@@ -60,14 +59,14 @@ export default function Footer() {
               >
                 <LinkedinIcon className="h-6 w-6 text-accent-foreground" />
               </a>
-              <a
+              {/* <a
                 href={siteMetadata.instagram}
                 target="_blank"
                 aria-label="Instagram"
                 className="rounded-full bg-muted p-2 transition-colors hover:bg-accent"
               >
                 <InstagramIcon className="h-6 w-6 text-accent-foreground" />
-              </a>
+              </a> */}
               <a
                 href={siteMetadata.twitter}
                 target="_blank"

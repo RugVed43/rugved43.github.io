@@ -5,7 +5,6 @@ import { AnimatePresence, motion } from "framer-motion";
 import FadeUp from "@/animation/fade-up";
 import {
   GithubIcon,
-  InstagramIcon,
   LinkedinIcon,
   MailIcon,
   TwitterIcon,
@@ -91,14 +90,14 @@ export default function LandingHero() {
                 >
                   <LinkedinIcon className="text-accent transition-colors duration-150 hover:text-accent-foreground" />
                 </a>
-                <a
+                {/* <a
                   href={siteMetadata.instagram}
                   target="_blank"
                   className="h-8 w-8"
                   aria-label="link to Instagram"
                 >
                   <InstagramIcon className="text-accent transition-colors duration-150 hover:text-accent-foreground" />
-                </a>
+                </a> */}
                 <a
                   href={siteMetadata.twitter}
                   target="_blank"
