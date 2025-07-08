@@ -19,8 +19,8 @@ export default function AboutHero() {
               height={100}
               className="h-auto w-full px-0 xl:px-16"
               alt="hero image"
-              lightColor="#E0FFFF"
-              darkColor="#004D4D"
+              lightColor="#DAD6FF"
+              darkColor="#302B6D"
               unoptimized
             />
           </FadeUp>

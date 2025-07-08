@@ -4,7 +4,6 @@ import { useState } from "react";
 
 import { AnimatePresence, motion } from "framer-motion";
 
-import AnimatedLogo from "@/animation/animated-logo";
 import MenuLogo from "@/components/utility/menu-button";
 import MobileMenu from "@/components/utility/mobile-menu";
 import ThemeSwitch from "@/components/utility/theme-switch";
@@ -39,7 +38,7 @@ export default function Navbar(props: NavbarProps) {
           aria-label="Return to home page"
         >
           <div className="relative h-12 w-12 sm:h-14 sm:w-14">
-            <AnimatedLogo />
+            {/* <AnimatedLogo /> */}
           </div>
         </Link>
         <nav className="hidden items-center gap-2 rounded-full px-2 py-2 shadow-md ring-1 ring-zinc-200 backdrop-blur-md dark:ring-accent/50 md:flex">
