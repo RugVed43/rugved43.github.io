@@ -80,8 +80,8 @@ export default function Navbar(props: NavbarProps) {
             })}
           </ul>
           <a
-            href="/files/RugvedG_Resume.pdf"
-            download
+            href="https://docs.google.com/document/d/1y1Ud1E13IF6V-TAl6oS7EustWMU1kF0LAOfpjEZY-xk/export?format=pdf"
+            target="_blank"
             className="ml-2 rounded-full bg-accent px-4 py-2 text-sm font-semibold text-background transition-colors duration-200 hover:bg-accent/80 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2"
           >
             Download Resume
